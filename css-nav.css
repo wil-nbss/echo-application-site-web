@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #402e42;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 350%;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  body {
+    margin:0;
+
+    background-color: rgb(192, 164, 212);
+}
+
+p {
+    font-size: 200%;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+/* "discrait button" */
+#myButton3 {
+  position: fixed;
+  bottom:95% ;
+  right: 80%; /* Ajustez cette valeur pour le positionnement exact */
+  opacity: 100;
+  font-size: 3em;
+  background-color: rgb(218, 33, 0);
+}
+
+/* first info thing*/
+.mon-bloc {
+  position: fixed;
+  background-color: #8b6c8f;
+  padding: 40px;
+  top: 35%;
+  left: 16.5%;
+  border: 0px solid #ccc;  /* Ajustez cette valeur pour le rendre plus large */
+  font-size: 45px;
+  color: #ffffff;
+}
+
+/* 2nd first info thing*/
+.mon-bloc2 {
+  position: fixed;
+  background-color: #8b6c8f;
+  padding: 40px;
+  top: 60%;
+  left: 11%;
+  border: 0px solid #ccc;  /* Ajustez cette valeur pour le rendre plus large */
+  font-size: 45px;
+  color: #ffffff;
+}
+
+/* echo logo */
+.logo {
+  position : fixed;
+  right: 25%;
+  top: 5%;
+}
+
+/* links in article */
+.slight-right {
+  position: fixed;
+  left: 10%;
+}
+
+/*Buttons in article */
+.button-article {
+  background-color: #8b6c8f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  
+}
+
+.logo2 {
+  position : fixed;
+  right: 25%;
+  top: 55%;
+}

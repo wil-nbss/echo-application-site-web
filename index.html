@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: rgb(192, 164, 212);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100vh;
+                margin: 0;
+            }
+            @font-face {
+                font-family: "Diphylleia";
+                src: url("./Diphylleia-Regular.ttf");
+                color: black;
+            }
+        </style>
+        <link rel="stylesheet" href="css-nav.css">
+        <title>Echo (Media Sociaux)</title>
+    </head>
+
+    <div position:relative; size:20%; class="logo">
+        <img src="./echo.png">
+    </div>
+    <hr>
+        <button id="myButton3">discrait!</button>
+        <div class="mon-bloc2">
+            <dl>
+                <dt>SOS violence conjugale</dt>
+                <dt>1 800 363-9010 (Au Québec)</dt>
+                <dt>514 873-9010 (Ensemble du Canada)</dt>
+                <dd></dd>
+              </dl>
+            
+        </div>
+        <div class="mon-bloc">
+            <dl>
+                <dt>À propos</dt>
+                <dt>Echo est une application d'aide.</dt>
+                <dt></dt>
+                <dd></dd>
+              </dl>
+        </div>
+        <ul>
+            <li><a href="./index.html">Page Principal</a></li>
+            <li><a href="./article.html">Article</a></li>
+            <li><a href="./aide.html">Aide</a></li>
+        </ul>
+        <div class="mybutton01">
+            <button id="myButtonTypedeV">Type de violence</button>
+            <button id="myButton2">Aide</button>
+            <button id="myButton">Visité notre centre d'articles</button>
+        </div>
+        <script>
+            //article
+            var btn = document.getElementById('myButton');
+            btn.onmouseover = function() {
+                btn.style.backgroundColor = "#028000";
+            }
+            btn.onmouseout = function() {
+                btn.style.backgroundColor = "rgb(72, 153, 88)";
+            }
+            btn.onclick = function() {
+                window.location.href = './article.html';
+            }
+            //aide 
+            var btn2 = document.getElementById('myButton2');
+            btn2.onmouseover = function() {
+                btn2.style.backgroundColor = "#0d92a4";
+            }
+            btn2.onmouseout = function() {
+                btn2.style.backgroundColor = "rgb(72, 153, 149)";
+            }
+            btn2.onclick = function() {
+                window.location.href = './aide.html';
+            }
+            //discrait
+            var btn3 = document.getElementById('myButton3');
+            btn3.onmouseover = function() {
+                btn3.style.backgroundColor = "#800000";
+            }
+            btn3.onmouseout = function() {
+                btn3.style.backgroundColor = "rgb(218, 33, 0)";
+            }
+            btn3.onclick = function() {
+                window.location.href = 'https://www.google.ca/?hl=fr';
+            }
+            //type 
+            var btn4 = document.getElementById('myButtonTypedeV');
+            btn4.onmouseover = function() {
+                btn4.style.backgroundColor = "#0d92a4"; 
+            } 
+            btn4.onmouseout = function() {
+                btn4.style.backgroundColor = "#800000";
+            }
+            btn4.onclick = function() {
+                window.location.href = './articles/article01.html';
+            }
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    @font-face {
+        font-family: "Diphylleia";
+        src: url("./Diphylleia-Regular.ttf");
+        color: black
+    }
+    #myButton3 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 30%; 
+            background-color: rgb(218, 33, 0);
+            align-self: center;
+            margin-bottom: 20px;
+            font-size: 450%;
+        }
+    </style>
+    <link rel="stylesheet" href="./css-nav.css">
+</head>
+<body>
+    <ul>
+        <li><a href="./index.html">Page Principal</a></li>
+        <li><a href="./article.html">Article</a></li>
+        <li><a href="./aide.html">Aide</a></li>
+    </ul>
+    
+<br><br>
+<h1 style="position:fixed; left:5%; font-size:740%; color:black;">Articles</h1>
+<h1 style="position:fixed; left:5%; font-size:700%; color:white;">Articles</h1>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="slight-right">
+
+    <h1 style="position:fixed; left:5%; font-size:520%; color:black;">Violence</h1>
+    <h1 style="position:fixed; left:5%; font-size:500%; color:white;">Violence</h1>
+<br><br><br><br><br><br><br><br><br><br>
+<button type="button" class="button-article"><a href="./articles/article-violence-domstique.html" style="text-decoration: none; color:white;">Violence domestique</a></button>
+<br><br>
+<button type="button" class="button-article"><a href="./articles/article01.html" style="text-decoration: none; color:white;">Types de violence</a></button>
+<br><br>
+<h1 style="position:fixed; left:5%; font-size:520%; color:black;">Internet</h1>
+<h1 style="position:fixed; left:5%; font-size:500%; color:white;">Internet</h1>
+<br><br><br><br><br><br><br><br><br><br>
+<button type="button" class="button-article"><a href="./articles/article02.html" style="text-decoration: none; color:white;">Cyberintimidation</a></button>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div position:relative; size:20%; class="logo2">
+    <img src="./echo.png">
+</div>
+
+<button id="myButton3">discrait!</button>
+<script>
+  
+    var btn3 = document.getElementById('myButton3');
+
+    btn3.onmouseover = function() {
+        btn3.style.backgroundColor = "#800000";
+    }
+
+    btn3.onmouseout = function() {
+        btn3.style.backgroundColor = "rgb(218, 33, 0)";
+    }
+
+    btn3.onclick = function() {
+        window.location.href = '../discraait.htm';
+    }
+</script>
+</body>
+</html>
